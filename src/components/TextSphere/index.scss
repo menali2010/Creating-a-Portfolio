@@ -1,0 +1,54 @@
+/* TextSphere.scss */
+
+.text-sphere {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Alinhe o conteúdo à direita */
+  align-items: center;
+}
+
+.tagcloud {
+  position: relative;
+  display: inline-flex;
+  width: 20%; /* Ajuste a largura conforme necessário */
+  height: 20%;
+  left: 20%;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 480;
+  margin: 5px;
+}
+
+.tagcloud--item {
+  color: #ffd700;
+  transform: rotateY(45deg) rotateX(20deg);
+}
+
+/* Adicione estilos adicionais conforme necessário */
+
+@media only screen and (max-width: 750px) {
+  .text-sphere {
+    position: relative;
+    width: 100%;
+    height: 1550px;
+    display: flex;
+    justify-content: center; /* Alinhe o conteúdo à direita */
+    align-items: center;
+  }
+
+  .tagcloud {
+    position: relative;
+    display: inline-flex;
+    width: 15%; /* Ajuste a largura conforme necessário */
+    height: 15%;
+    left: 8%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 480;
+    margin: 5px;
+  }
+}
